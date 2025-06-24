@@ -1,0 +1,36 @@
+.top5-container {
+  height: 80px;
+  background-color: #eff1f3;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.error-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.chart-container {
+  width: 70%;
+  height: 300px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 70px;
+}
