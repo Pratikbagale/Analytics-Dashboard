@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #ffffff;
+    height: 90px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav1 {
+    background-color: rgb(209, 222, 223);
+    height: auto;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav1 h4, h5 {
+    padding: 3px;
+}
+
+.searchbox {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.searchbox input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.searchbox .button {
+    padding: 10px 15px;
+    background-color: #668fbb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.searchbox .button:hover {
+    background-color: #003d82;
+}
+
+/* Mobile Devices (max-width: 600px) */
+@media (max-width: 600px) {
+    .nav {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .nav1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .searchbox {
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .searchbox input {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .searchbox .button {
+        width: 90%;
+        max-width: 200px;
+    }
+}
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .nav1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .searchbox {
+        margin-left: 0;
+    }
+}
+
+/* Large Screens (min-width: 1440px) */
+@media (min-width: 1440px) {
+    .nav {
+        padding: 40px;
+    }
+
+    .nav1 {
+        padding: 30px;
+    }
+
+    .searchbox input {
+        width: 300px;
+    }
+}
