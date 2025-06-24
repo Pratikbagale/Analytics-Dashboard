@@ -1,0 +1,25 @@
+ 
+
+.gauge-container {
+    background-color: #e0ebf7;
+    height: 25rem;
+    width: 80rem;
+    padding: 20px;
+    margin-top: 30rem; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+
+}
+
+.gauge1 {
+    background-color: bisque;
+    width: 40%;
+ }
+
+.gauge2 {
+    background-color: bisque;
+    width: 40%;
+}
